@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+#Name{
+    font-weight: 500;
+}
+.head{
+    font-size: 500;
+}
+body{
+    font-family: "Inter", "Kanit";
+}
+h1{
+    font-weight: 700;
+}
+:placeholder-shown{
+    font-family: "Kanit";
+}
+.label.cursor-pointer:checked[for="gender_หญิง"] {
+    color: salmon;
+}
+.label.cursor-pointer:checked[for="gender_ชาย"] {
+    color: blue;
+}
+.label.cursor-pointer:checked[for="gender_อื่นๆ"] {
+    color: gray;
+}
